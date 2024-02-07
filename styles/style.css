@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=M+PLUS+Rounded+1c:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+:root{
+    --cor-primaria: #54a3ed;
+    --cor-hover: #115775;
+
+    --fonte-principal:  'M PLUS Rounded 1c', sans-serif;
+    --fonte-secundaria: 'Exo 2', sans-serif;
+}
+
+body{
+    background: black;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    width: auto;
+    height: 2rem;
+}
+
+.container__input{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.container__input .input{
+    width: 400px;
+    height: 330px;
+}
+
+#texto{
+    width: 345px;
+    height: 330px;
+    font-size: 1rem;
+    color: aliceblue;
+    background: black;
+    box-shadow: none;
+    border: var(--cor-primaria) solid 2px;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+#output{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    background: black;
+    box-shadow: none;
+    border: var(--cor-primaria) solid 2px;
+    border-radius: 20px;
+    padding: 8px;
+    width: 350px;
+    height: 400px;
+    margin-right: 4%;
+}
+
+#output h2{
+ text-align: center;
+ font-size: 1,5rem;
+ font-family: var(--fonte-secundaria);
+}
+
+#output span{
+    text-align: center;
+    font-size: 1rem;
+    font-family: var(--fonte-secundaria);
+}
+
+#output img{
+    max-width: 340px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin-top: 4%;
+}
+
+
+.btn {
+    border: 2px solid var(--cor-primaria);
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: #FFF;
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: var(--cor-hover);
+    transition: 1s;
+}
+
+.btn__copiar{
+    border: 2px solid var(--cor-primaria);
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: #FFF;
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.btn__copiar:hover{
+    background-color: var(--cor-hover);
+    transition: 1s;
+}
+    
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px;
+    background: black;
+    color: aliceblue;
+}
+
+.icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color: var(--cor-primaria);
+}
+
+.icons ion-icon:hover{
+    color: var(--cor-hover);
+}
